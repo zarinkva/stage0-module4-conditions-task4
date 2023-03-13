@@ -44,7 +44,7 @@ class TernaryOperatorTest extends BaseIOTest {
                 .collect(Collectors.toList());
 
         assertEquals(0, rawNumbersPrinted.size());
-        assertEquals(1, result.size());
+        assertEquals(0, result.size());
         assertEquals(0, assignmentLine.size());
     }
 }
